@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int R, C, E, total_cells;
+    scanf("%d %d %d", &R, &C, &E);
+    total_cells = (R + E) * C;
+    printf("%d\n", total_cells);
+    return 0;
+}
